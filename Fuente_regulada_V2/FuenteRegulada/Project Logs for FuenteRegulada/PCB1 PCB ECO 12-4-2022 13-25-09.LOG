@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetJ2_1 Pin=Q2-1
+Removed Pin From Net: NetName=NetQ1_1 Pin=Q2-3
+Added Pin To Net: NetName=NetQ1_1 Pin=Q2-1
+Added Pin To Net: NetName=NetJ2_1 Pin=Q2-3
+Added Room: Name=Fuente

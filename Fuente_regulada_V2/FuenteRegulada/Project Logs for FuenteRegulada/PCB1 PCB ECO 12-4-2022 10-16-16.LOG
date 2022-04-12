@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=U1-1
+Removed Pin From Net: NetName=GND Pin=U1-5
+Added Member To Class: ClassName=Fuente Member=Component Q1 TIP112
+Added Room: Name=Fuente

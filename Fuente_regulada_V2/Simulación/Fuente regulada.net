@@ -1,0 +1,47 @@
+* C:\Fran\ITBA\Electronica 2\TPs-E2\Fuente_regulada_V2\Simulación\Fuente regulada.asc
+R1 Vo V- 9k
+R2 V- Vz 4k7
+R3 Vz -Vcc 1k
+D3 Vz 0 Z5p6
+XU1 0 V- +Vcc -Vcc Comp TL082
+V1 0 -Vcc {VCC}
+V2 +Vcc 0 {VCC}
+RL Vo 0 {X}
+Q3 Comp Vb Vo 0 BC547C
+R4 Vo N001 1
+XU2 +Vcc Comp N001 tip112
+R5 N001 Vb 3k3
+R6 Vb 0 100k
+.model D D
+.lib C:\Users\basil\OneDrive\Documentos\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\basil\OneDrive\Documentos\LTspiceXVII\lib\cmp\standard.bjt
+.inc TL082.301
+.tran 0 1.1 1
+* .tran 0 510m 500m
+;op 1m
+.inc TIP112.SP3
+.model Z5p6 D(Is=1.5n Rs=.5 Cjo=185p nbv=3 bv=5.6 Ibv=1m)
+.save V(Vo)
+.save I(RL)
+.save Ix(U1:OUT)
+.save Ic(Q3)
+.save V(Vb)
+.save V(Ve)
+.save V(comp)
+.save V(V-)
+.step param X 1e-18 10 .1
+.measure Vo avg V(Vo)
+.measure IL avg I(RL)
+.measure Ic avg Ic(Q3)
+.measure Vbe avg V(Vb,Vo)
+.measure Vce avg V(comp,Vo)
+.measure Vopamp avg V(comp)
+.measure Iopamp avg Ix(U1:OUT)
+.measure V- avg V(V-)
+.option plotwinsize=0 numdgt=15
+.param VCC=18
+.lib TIP112.SP3
+.backanno
+.end

@@ -1,0 +1,25 @@
+Removed Pin From Net: NetName=-VCC Pin=J1-1
+Removed Pin From Net: NetName=+VCC Pin=J1-3
+Change Managed Component Library Link : Designator=Q2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=3C2BC40B-BB73-4CD7-B683-FA9216B0B4DA New ItemGUID=3FDC9111-A9E1-4CFC-B614-3B9BA7CCBE99 Old RevisionGUID=F2F4A421-631D-4CDB-BDE8-4DF12E49543B New RevisionGUID=BCF058BD-977B-497B-AE3D-78525A77E82D
+Change component parameters: Designator = "Q2" ("Q2"); Footprint = "ONSC-TO-92-3-29-11"; UniqueID = "\SBCHZXTP" ("\SBCHZXTP")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.onsemi.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.onsemi.com/pub_link/Collateral/BC546-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.onsemi.cn/pub_link/Collateral/2N6426-D.PDF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "fT Min (MHz)"; Value = "150"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "IC Continuous (A)"; Value = "0.1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "On Semiconductor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "3-Pin Transistor Outline, Body 4.825 x 3.685 mm, Pitch 1.27 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "TO-92-3-29-11_AM_SL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageVersion"; Value = "Rev. AM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Bulk Box"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "BC547B"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Polarity"; Value = "NPN"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "FALSE"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+VCC Pin=J1-1
+Added Pin To Net: NetName=-VCC Pin=J1-3
+Added Room: Name=Fuente

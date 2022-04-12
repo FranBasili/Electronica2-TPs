@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : C:\Fran\ITBA\Electronica 2\Fuente_regulada_V2\FuenteRegulada\PCB1.PcbDoc
+Date         : 11/4/2022
+Time         : 23:50:04
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 100,00%
+    Connections, 27
+    Connections routed, 27
+    Connections remaining, 0
+count : 4

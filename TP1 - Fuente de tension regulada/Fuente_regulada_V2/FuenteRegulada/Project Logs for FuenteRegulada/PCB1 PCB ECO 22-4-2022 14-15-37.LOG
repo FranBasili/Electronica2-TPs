@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=NetQ1_1 Pin=Q2-1
+Removed Pin From Net: NetName=NetJ2_1 Pin=Q2-3
+Added Component: Designator=T?(TO92)
+Added Pin To Net: NetName=NetJ2_1 Pin=T?-2
+Added Pin To Net: NetName=NetQ1_1 Pin=T?-3
+Added Pin To Net: NetName=NetR5_1 Pin=R5-1
+Added Pin To Net: NetName=NetR5_1 Pin=R6-2
+Added Net: Name=NetR5_1
+Added Member To Class: ClassName=Fuente Member=Component T? TRANSISTOR NPN
+Added Room: Name=Fuente

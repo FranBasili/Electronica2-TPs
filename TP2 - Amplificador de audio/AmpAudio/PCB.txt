@@ -1,0 +1,12 @@
+Board Information Report
+Filename     : C:\Fran\ITBA\Electronica 2\TPs-E2\AmpAudio\AmpAudio\PCB.PcbDoc
+Date         : 29/5/2022
+Time         : 20:57:53
+Time Elapsed : 00:00:00
+
+Routing Information
+    Routing completion, 100,00%
+    Connections, 58
+    Connections routed, 58
+    Connections remaining, 0
+count : 4
